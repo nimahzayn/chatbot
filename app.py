@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-from chatbot import chatbot_response  # Import chatbot function
+from chatbot1 import chatbot_response  # Import chatbot function
 
 app = Flask(__name__)
 
