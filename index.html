@@ -321,20 +321,7 @@
             chatMessages.scrollTop = chatMessages.scrollHeight;
         }
 
-        // Simple bot response logic
-        function getBotResponse(message) {
-            message = message.toLowerCase();
-            if (message.includes('hello') || message.includes('hi')) {
-                return "Hello! How can I assist you today?";
-            } else if (message.includes('help')) {
-                return "I'm here to help! What do you need assistance with?";
-            } else if (message.includes('bye') || message.includes('goodbye')) {
-                return "Goodbye! Have a great day!";
-            } else {
-                return "I'm sorry, I didn't quite understand that. Could you please rephrase your question?";
-            }
-        }
-
+        
         // Initial bot message
         addMessage("Hello! How can I assist you today?", 'bot-message');
     </script>
